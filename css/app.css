@@ -1,0 +1,141 @@
+:root {
+    --principalColor: #0f62ac;
+    --secondaryColor: #272927;
+    --complementaryBlue: #3c8cdc;
+    --darkBlue: #002e6d;
+
+    --principalFont: 'Roboto', sans-serif;
+    --secondaryFont: 'Montserrat', sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1REM = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--principalFont);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Globales */
+h1,
+h2,
+h3 {
+
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+/** Utilidades */
+.text-center {
+    text-align: center;
+}
+
+.max-width-30 {
+    max-width: 30rem;
+}
+
+/*NavBar*/
+
+.navigation-container {
+    border: 0.1rem solid #000;
+}
+
+.principal-navbar {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Formulario*/
+
+.principal-container-form{
+    max-width: 190rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20rem;
+    padding: 10rem 0;
+    
+}
+
+.form-login {
+
+    max-width: 60rem;
+    border-radius: 20px;
+}
+
+.form-login fieldset {
+    border: 1px solid black;
+    padding: 15rem;
+    margin: 2rem;   
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+#document, #password  {
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    
+}
+
+
+
+/** Footer **/
+.site-footer {
+    border: 1px solid black;
+   padding: 3rem;
+
+}
+
+
+.copyright {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+/* BTN */
+
+.btn {
+    color: var(--secondaryColor);
+    padding: 6px;
+}
