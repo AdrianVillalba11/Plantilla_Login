@@ -55,6 +55,7 @@ a {
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -73,7 +74,16 @@ img {
 /*NavBar*/
 
 .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 10rem;
     border: 0.1rem solid #000;
+    
+}
+
+.logo{
+    width: 40rem;
+    height: auto;
 }
 
 .principal-navbar {
@@ -122,6 +132,8 @@ img {
 .site-footer {
     border: 1px solid black;
    padding: 3rem;
+   background-color: var(--principalColor);
+   color: #ffff;
 
 }
 
